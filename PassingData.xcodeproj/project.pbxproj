@@ -14,6 +14,7 @@
 		DF23F59C1A9293AA00BFCB21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF23F59B1A9293AA00BFCB21 /* Images.xcassets */; };
 		DF23F59F1A9293AA00BFCB21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF23F59D1A9293AA00BFCB21 /* LaunchScreen.xib */; };
 		DF23F5AB1A9293AA00BFCB21 /* PassingDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF23F5AA1A9293AA00BFCB21 /* PassingDataTests.m */; };
+		DF23F5B91A9294AA00BFCB21 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF23F5B81A9294AA00BFCB21 /* DetailVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DF23F5A41A9293AA00BFCB21 /* PassingDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassingDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF23F5A91A9293AA00BFCB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF23F5AA1A9293AA00BFCB21 /* PassingDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassingDataTests.m; sourceTree = "<group>"; };
+		DF23F5B71A9294AA00BFCB21 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailVC.h; path = ../DetailVC.h; sourceTree = "<group>"; };
+		DF23F5B81A9294AA00BFCB21 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailVC.m; path = ../DetailVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				DF23F5951A9293AA00BFCB21 /* ViewController.h */,
 				DF23F5961A9293AA00BFCB21 /* ViewController.m */,
 				DF23F5981A9293AA00BFCB21 /* Main.storyboard */,
+				DF23F5B71A9294AA00BFCB21 /* DetailVC.h */,
+				DF23F5B81A9294AA00BFCB21 /* DetailVC.m */,
 				DF23F59B1A9293AA00BFCB21 /* Images.xcassets */,
 				DF23F59D1A9293AA00BFCB21 /* LaunchScreen.xib */,
 				DF23F58E1A9293AA00BFCB21 /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF23F5971A9293AA00BFCB21 /* ViewController.m in Sources */,
+				DF23F5B91A9294AA00BFCB21 /* DetailVC.m in Sources */,
 				DF23F5941A9293AA00BFCB21 /* AppDelegate.m in Sources */,
 				DF23F5911A9293AA00BFCB21 /* main.m in Sources */,
 			);

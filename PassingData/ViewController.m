@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DetailVC.h"
 
 @interface ViewController ()
 
@@ -23,5 +24,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+#pragma mark - prepareForSegue
 
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([sender isKindOfClass:[UIButton class]])
+    {
+        if ([segue.destinationViewController isKindOfClass:[DetailVC class]])
+        {
+            DetailVC *nextViewController = segue.destinationViewController;
+            nextViewController.dataFromFirstView = self.textView.text;
+        }
+    }
+}
 @end
